@@ -22,12 +22,12 @@ public class ApplicationTest {
     private Instrument piano;
 
     @Test
-    public void name() throws Exception {
+    public void shouldGuitarPlay() throws Exception {
         guitar2.play();
     }
 
     @Test
-    public void pianoPlay() throws Exception {
+    public void shouldianoPlay() throws Exception {
         piano.play();
     }
 

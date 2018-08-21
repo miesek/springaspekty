@@ -19,6 +19,7 @@ public class ApplicationTest {
     private Instrument guitar2;
 
     @Autowired
+    @Qualifier("piano")
     private Instrument piano;
 
     @Test

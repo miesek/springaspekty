@@ -1,11 +1,16 @@
 package instruments;
 
-import javax.inject.Named;
+import org.springframework.stereotype.Component;
 
-@Named
+import jdk.nashorn.internal.runtime.regexp.joni.exception.InternalException;
+
+@Component
 public class Guitar implements Instrument {
 
-    public void play() {
+    public int play() {
         System.out.println("Guitar is playing");
+//        throw new InternalException("curtain down");
+//        return "C dur";
+        return 1;
     }
 }

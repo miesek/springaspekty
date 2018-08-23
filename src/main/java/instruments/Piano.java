@@ -5,7 +5,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Piano implements Instrument {
 
-    public void play() {
+    public int play() {
         System.out.println("Piano is playing");
+//        return "B dur";
+        return 2;
     }
 }

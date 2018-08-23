@@ -1,5 +1,6 @@
 package instruments;
 
 public interface Instrument {
-    void play();
+//    String play();
+    int play();
 }

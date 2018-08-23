@@ -25,6 +25,7 @@
                             <mainClass>springaspect.Application</mainClass>
                         </manifest>
                     </archive>
+
                 </configuration>
             </plugin>
 
